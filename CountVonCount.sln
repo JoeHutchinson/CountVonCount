@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleShoppingList", "SimpleShoppingList\SimpleShoppingList.csproj", "{9359B29B-4E31-4FE9-AA63-DA94E1009210}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountVonCount", "CountVonCount\CountVonCount.csproj", "{9359B29B-4E31-4FE9-AA63-DA94E1009210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountVonCount.Tests", "CountVonCount.Tests\CountVonCount.Tests.csproj", "{E27886B3-4A20-4F7C-B6A6-1E4B2AA86F7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9359B29B-4E31-4FE9-AA63-DA94E1009210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9359B29B-4E31-4FE9-AA63-DA94E1009210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9359B29B-4E31-4FE9-AA63-DA94E1009210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27886B3-4A20-4F7C-B6A6-1E4B2AA86F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27886B3-4A20-4F7C-B6A6-1E4B2AA86F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27886B3-4A20-4F7C-B6A6-1E4B2AA86F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27886B3-4A20-4F7C-B6A6-1E4B2AA86F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
