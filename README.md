@@ -5,13 +5,19 @@ HTML scrapper for counting word occurrences
 
 Takes a URL as input and will retrieve the HTML page count just visible words and updates its database. The user is then shown a word cloud of top 100 words and below a table of the same words and their respective counts.
 
-# Key technologies
+## Key technologies
 - ASP.NET 4.7
 - Web API 2
 - SQL Server
 - C#
 
-## Todo
+## How to run
+1. Create TestDB on your local machine
+2. Execute DB_Create.sql to create tables and TVP
+3. Build and run 
+4. Enter any URL and click the Go button
+
+## To do
 - Resolve Enter on URL input error
 - Validate user input
 - DI into DB Store to aid testability
